@@ -201,7 +201,6 @@ img {
   padding: 120px 0;
   flex-wrap: wrap;
   gap: 24px;
-  padding: 32px 0 32px;
 }
 .team-list-container {
   display: flex;
@@ -233,6 +232,7 @@ img {
 }
 .team-item {
   background: #fff;
+  border-radius: 0px 0px 4px 4px;
 }
 .our-portfolio-title {
   font-weight: 700;
