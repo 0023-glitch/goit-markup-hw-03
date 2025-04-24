@@ -104,6 +104,7 @@ img {
 }
 .main-banner {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 .main-title {
   font-weight: 700;
@@ -126,6 +127,9 @@ img {
   letter-spacing: 0.04em;
   color: #fff;
   cursor: pointer;
+  min-width: 169px;
+  height: 56px;
+  border-radius: 4px;
 }
 .main-button:hover,
 .main-button:focus {
