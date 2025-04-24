@@ -137,6 +137,7 @@ img {
   background-color: #404bbf;
 }
 .visually-hidden {
+  overflow: hidden;
   position: absolute;
   width: 1px;
   height: 1px;
@@ -162,7 +163,6 @@ img {
   justify-content: space-between;
   align-items: center;
   gap: 24px;
-  width: calc((100% - 72px) / 4);
 }
 .benefits-title {
   margin-bottom: 8px;
@@ -187,6 +187,28 @@ img {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 72px;
+}
+.employee-info {
+  padding: 32px 0;
+  text-align: center;
+}
+.main-our-team-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 120px 0;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding: 32px 0 32px;
+}
+.team-list-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 120px;
 }
 .our-team-title {
   font-weight: 500;
@@ -195,6 +217,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .our-team-text {
   font-weight: 400;
@@ -203,6 +226,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  margin-bottom: 32px;
 }
 .main-our-team {
   background: #f4f4fd;
